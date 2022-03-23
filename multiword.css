@@ -1,0 +1,88 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenedor
+{   
+    
+    max-width: 1500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 95px;
+    margin-bottom: 85px;
+    display: none;
+ 
+}
+.contenedorNombres
+{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 95px;
+    margin-bottom: 85px;
+    display: none;
+}
+.n1
+{
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    border: 7px solid #ffffff;
+    background-color: red;
+    line-height: 50px;
+}
+.tiempoR
+{
+    max-width: 250px;
+    border-radius: 55px 55px 55px 55px;
+    -moz-border-radius: 55px 55px 55px 55px;
+    -webkit-border-radius: 55px 55px 55px 55px;
+    border: 7px solid #ffffff;
+    margin: auto;
+    margin-top: 55px;
+    display: none
+}
+.elinput
+{
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+    width: 250px;
+    display: none
+}
+.comenzar
+{
+    width: 250px;
+    cursor: pointer;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    background-color: black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+}
+.preguntas
+{
+    width: 250px;
+    cursor: pointer;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    background-color: black;
+    margin: 40px
+}
+.moption
+{
+    max-width: 650px;
+    margin: auto;
+    margin-top: 135px;
+}
